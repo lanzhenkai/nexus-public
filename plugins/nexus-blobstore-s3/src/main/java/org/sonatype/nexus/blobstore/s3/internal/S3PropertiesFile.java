@@ -85,9 +85,9 @@ public class S3PropertiesFile
   }
 
   private void maybePutTempBlobUserMetadata(final ObjectMetadata metadata) {
-    if (containsKey(HEADER_PREFIX + TEMPORARY_BLOB_HEADER)) {
-      metadata.addUserMetadata(TEMPORARY_BLOB_HEADER, "true");
-    }
+//    if (containsKey(HEADER_PREFIX + TEMPORARY_BLOB_HEADER)) {
+//      metadata.addUserMetadata(TEMPORARY_BLOB_HEADER, "true");
+//    }
   }
 
   public boolean exists() throws IOException {
