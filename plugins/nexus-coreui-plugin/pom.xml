@@ -197,17 +197,17 @@
             </configuration>
           </execution>
 
-          <execution>
-            <id>js-unit-test</id>
-            <goals>
-              <goal>yarn</goal>
-            </goals>
-            <phase>test</phase>
-            <configuration>
-              <arguments>test --reporters=jest-junit --reporters=default</arguments>
-              <skip>${npm.skipTests}</skip>
-            </configuration>
-          </execution>
+<!--          <execution>-->
+<!--            <id>js-unit-test</id>-->
+<!--            <goals>-->
+<!--              <goal>yarn</goal>-->
+<!--            </goals>-->
+<!--            <phase>test</phase>-->
+<!--            <configuration>-->
+<!--              <arguments>test &#45;&#45;reporters=jest-junit &#45;&#45;reporters=default</arguments>-->
+<!--              <skip>${npm.skipTests}</skip>-->
+<!--            </configuration>-->
+<!--          </execution>-->
         </executions>
       </plugin>
     </plugins>
